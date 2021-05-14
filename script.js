@@ -26,7 +26,7 @@ function Send(nome, lastName, age, yes, no){
         if (mounth == "01" || mounth == "12" && premio == true){
         msgTwo = 'Nossos meses premiados são Janeiro e Dezembro, parece que você faz aniversário em um desses meses! Você tem direito ao prêmio. '
         }    
-    } else if (2021 - anniversary[2] >= 18 && no){
+    } else if (2021 - anniversary[2] >= 18 && no && 2021 - anniversary[2] !== 2021){
         premio = false;
         msgOne = "Você tem idade para dirigir, mas parece que você não é humano. Apenas humanos podem dirigir, regras do planeta. Desculpe. "
     } else if(2021 - anniversary[2] && yes == false && no == false){
