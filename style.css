@@ -1,0 +1,25 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+main {
+    width: 800px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #eee;
+}
+#p2 {
+    background-color: aqua;
+    line-height: 1.5;
+}

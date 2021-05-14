@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desafio 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Teste: Você pode dirigir?</h1>
+    </header>
+    <main>
+   
+            <h2>Saiba se você pode dirigir:</h2>
+            <p class="p1"> Faça nosso teste e além de descobrir se você está apto a dirigir, se você fizer aniversário nos meses sorteados ou ter a inicial do seu nome igual às sortedas, você ganhará um prêmio!</p>
+            <label > Nome:
+                <input type="text" placeholder="Ex: Ana ou Ana Vitória" id="name" required>
+            </label>
+            <label > Sobrenome:
+                <input type="text" placeholder="Ex: Lemos" id="lastName" required>
+            </label>
+            <label for=""> Sua data de nascimento:
+                <input type="date" name="" id="age" required>
+            </label>
+            <label> Você é humano?
+                <input type="radio" name="human" id="yes" value="true"> Sim
+                <input type="radio" name="human" id="no" value="false"> Não
+            </label>
+            
+            <button id="btn">Enviar</button>
+            <p id="p2"></p>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
